@@ -1,4 +1,4 @@
-
+print('starting up...')
 # IMPORTING LIBRARIES -------------------------------------
 #region
 import PySimpleGUI as sg
@@ -11,11 +11,10 @@ import csv
 import shutil
 import datetime
 from datetime import datetime
-print('Libs Imported')
 #endregion
 
 # GUI ------------------------------------------------------
-
+print('Opening GUI')
 sg.theme('DarkAmber')   # Add a touch of color
 # All the stuff inside your window.
 layout = [  [sg.Text('Example -   C:\FILES   ')],
